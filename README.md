@@ -1,16 +1,111 @@
-# React + Vite
+# 👥 Employee Management System (React + Context API + LocalStorage)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A complete Employee Management System built using React.js, Context API, and LocalStorage for persistence.
+This project demonstrates how to build a fully functional frontend system with authentication, dashboards, task management, and state sharing through React Context.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🔐 Login System for Admin and Employees
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 👨‍💼 Admin Dashboard (Manage Employees & Tasks)
 
-## Expanding the ESLint configuration
+- 👨‍💻 Employee Dashboard (View & Update Task Status)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📝 Create, assign, and manage tasks
+
+- 💾 Persistent data storage using localStorage
+
+- ⚛️ State management via Context API (Auth & Task context)
+
+- 🔄 Real-time UI updates using React state
+
+- 🧩 Clean, modular, and beginner-friendly React structure
+
+---
+
+| Technology            | Description                      |
+| --------------------- | -------------------------------- |
+| **React.js**          | Frontend library for building UI |
+| **JavaScript (ES6+)** | Core language                    |
+| **Context API**       | Global state management          |
+| **LocalStorage**      | Persistent client-side storage   |
+| **HTML5 / CSS3**      | UI layout and styling            |
+
+---
+
+## 📁 Project Structure
+
+employee-management-system/
+
+│
+
+├── src/
+
+│   ├── components/        # Reusable UI components
+
+│   ├── context/           # AuthContext & TaskContext
+
+│   ├── pages/             # Admin & Employee dashboards
+
+│   ├── data/              # Initial dummy data
+
+│   ├── utils/             # Helper functions
+
+│   ├── App.js             # Main application
+
+│   └── index.js           # Entry point
+
+│
+
+└── package.json
+
+---
+
+## 🧪 How It Works
+
+- User logs in → data saved in localStorage
+
+- Role-based dashboard appears (Admin/Employee)
+
+- Admin can:
+
+  - Create employees
+
+  - Assign tasks
+
+  - Manage task data
+
+- Employee can:
+
+  - View tasks
+
+  - Update task status
+
+- Context API distributes global state across components
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/Chetan-Malviya/employee-management-system.git
+cd employee-management-system
+```
+
+### 2️⃣ Install dependencies
+```bash
+npm install
+```
+
+### 3️⃣ Start the development server
+```bash
+npm run dev
+```
+
+The app will start on:
+```bash
+http://localhost:3000
+```
