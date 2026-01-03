@@ -109,3 +109,10 @@ The app will start on:
 ```bash
 http://localhost:3000
 ```
+
+---
+
+## 👨‍💻 Author
+
+**Chetan Malviya**  
+Full Stack Developer (MERN)
