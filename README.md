@@ -25,6 +25,22 @@ This project demonstrates how to build a fully functional frontend system with a
 
 ---
 
+## 🔑 Demo Access (For Testing)
+
+Use the following demo credentials to explore the application:
+
+### Admin Login
+- **Email:** `admin@example.com`
+- **Password:** `123`
+
+### Employee Login
+- **Email:** `employee1@example.com` to `employee5@example.com`
+- **Password:** `123`
+
+> ⚠️ **Note:** These are demo credentials stored in `localStorage` for testing and demonstration purposes only.
+
+---
+
 | Technology            | Description                      |
 | --------------------- | -------------------------------- |
 | **React.js**          | Frontend library for building UI |
